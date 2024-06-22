@@ -1,0 +1,9 @@
+/* styles.css */
+.top-right-corner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px; /* Adjust the margin as needed */
+    text-align: center;
+  }
+  
