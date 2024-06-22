@@ -1,3 +1,28 @@
+# CGPA Calculator
+
+## Overview
+
+This project implements a CGPA Calculator using blockchain technology. It consists of a frontend application built with Next.js for user interaction and a backend smart contract developed with Solidity using Hardhat for Ethereum blockchain integration.
+
+## Features 
+
+- Add Subjects: Users can add subjects along with their marks.
+- Calculate CGPA: The smart contract calculates the Cumulative Grade Point Average (CGPA) based on the subjects added.
+- View Subject List: Displays the list of subjects added and their respective marks.
+
+# Technology Used
+
+## Frontend
+- Next.js
+- React
+- TypeScript
+- Thirdweb SDK for blockchain interactions
+
+## Backend
+- Solidity
+- Hardhat
+- Ethereum blockchain
+
 ## Getting Started
 
 Create a project using this example:
@@ -16,8 +41,6 @@ After any changes to the contract, run:
 
 ```bash
 npm run build
-# or
-yarn build
 ```
 
 to compile your contracts. This will also detect the [Contracts Extensions Docs](https://portal.thirdweb.com/contractkit) detected on your contract.
@@ -29,19 +52,36 @@ When you're ready to deploy your contracts, just run one of the following comman
 ```bash
 npm run deploy
 # or
-yarn deploy
+npm thirdweb deploy
 ```
 
-## Releasing Contracts
+## Create Frontend
 
-If you want to release a version of your contracts publicly, you can use one of the followings command:
+When you're ready to create the frontend just got to other directory or to root of current directory and create a next js project.
 
 ```bash
-npm run release
-# or
-yarn release
+npm create-next-app project-name
+```
+Once it is done then start building the front-end in that project.
+
+## Run 
+
+To run the frontend part go to terminal and enter:
+```bash
+npm run dev
 ```
 
-## Join our Discord!
+## Acknowledgements
 
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+- Next.js Documentation
+- Hardhat Documentation
+- Thirdweb Documentation
+
+## Contact
+
+For issues or inquiries, please contact [harshdeepsingh2809@gmail.com].
+
+## Authors
+
+Contributors names and contact info
+- [@Harshdeep Singh](https://github.com/Sudo-Harsh-learner)
